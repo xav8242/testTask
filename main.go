@@ -20,9 +20,6 @@ const merchant_id = 6
 const merchant_key = "KaTf5tZYHx4v7pgZ"
 const app_id = 816
 const app_key = "rTaasVHeteGbhwBx"
-const limit = 5
-
-var Count_req = 0
 
 func main() {
 
