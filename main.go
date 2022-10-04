@@ -70,15 +70,6 @@ func callbackUrl(w http.ResponseWriter, r *http.Request) {
 
 func umJson(data []byte) map[string]interface{} {
 
-	// type Pays struct {
-	// 	MerchantId int    `json : merchant_id`
-	// 	PaymentId  int    `json : payment_id`
-	// 	Status     string `json : status`
-	// 	Amount     int    `json : amount`
-	// 	AmountPaid int    `json : amount_paid`
-	// 	Timestamp  int    `json : timestamp`
-	// 	Sign       string `json : sign`
-	// }
 	pay := make(map[string]interface{})
 
 	err := json.Unmarshal(data, &pay)
